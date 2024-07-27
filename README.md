@@ -1,6 +1,6 @@
 # Nerat's Portfolio
 
-Welcome to my portfolio where I showcase my projects and expertise in data science, machine learning, and analytics. This site is built using HTML, CSS, and is hosted on GitHub Pages.
+Welcome to my portfolio where I showcase my projects and expertise in data science, machine learning, and analytics. This site is built using HTML, CSS, and is hosted on Vercel.
 
 ## 🌐 Live Site
 
@@ -9,7 +9,7 @@ Visit the live portfolio here: [Nerat's Portfolio](https://nerat-portfolio.verce
 ## 🛠 Technologies Used
 
 - **HTML**: For structure and content.
-- **CSS3**: For styling and layout.
+- **CSS**: For styling and layout.
 - **JavaScript**: For interactivity.
 - **Vercel**: For hosting the live site.
 
