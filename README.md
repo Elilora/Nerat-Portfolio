@@ -19,11 +19,11 @@ To view or edit the site locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Elilora_Nerat/portfolio.git
+   git clone https://github.com/Elilora/Nerat-Portfolio.git
 
 2. **Navigate to the project directory:**
    ```bash
-   cd portfolio
+   cd Nerat-Portfolio
 
 3. Open index.html in your preferred web browser.
 
