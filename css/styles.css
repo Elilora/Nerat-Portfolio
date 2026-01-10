@@ -11036,8 +11036,10 @@ footer.footer .social-link:hover {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
+  width: 100%;              
+  margin-bottom: 1rem; 
+ /* max-width: 530px;*/
+ /*margin: auto auto 1rem;*/
 }
 .portfolio-item .caption {
   display: flex;
