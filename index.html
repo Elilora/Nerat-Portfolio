@@ -1,323 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-222NFW2GKH"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-222NFW2GKH');
-        </script>  
-    </head>
 
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Menu</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Nerat Dazam</h1>
-                <h3 class="mb-5"><em>A passionate Data scientist and Machine learning enthusiast.
-                </em></h3>
-                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Nerat Dazam: data scientist, Data analyst and AI engineer. Analysis, dashboards, machine learning and NLP. Ask my portfolio a question." />
+    <meta name="author" content="Nerat Dazam" />
+    <title>Nerat Dazam | Data Scientist, Analyst &amp; AI Engineer</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap (grid, navbar, utilities) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- styles -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-222NFW2GKH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-222NFW2GKH');
+    </script>
+
+    <!-- Vercel Web Analytics f -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navLinks" data-bs-offset="80" tabindex="0">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Navigation: links jump to sections -->
+    <nav class="navbar navbar-expand-md site-nav">
+        <div class="container">
+            <!--<a class="navbar-brand" href="#top">Nerat Dazam</a> -->
+            <a class="navbar-brand" href="#top">
+                <img src="assets/img/logo.png" alt="Nerat Dazam" class="brand-logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                aria-controls="navLinks" aria-expanded="false" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <header class="hero" id="top">
+            <div class="container">
+                <div class="row gx-4 gy-5 align-items-center">
+                    <div class="col-lg-5">
+                        <h1 class="hero-name">Nerat Dazam</h1>
+                        <p class="hero-role">Data scientist, data analyst and AI engineer</p>
+                        <p class="hero-lede">
+                            I turn data into decisions, from analysis and dashboards to machine
+                            learning models and NLP applications.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="btn btn-brand" href="#projects">See my projects</a>
+                            <!--  
+                            <a class="btn btn-ghost" href="assets/Nerat_Dazam_CV.pdf" target="_blank" rel="noopener">
+                                <i class="fas fa-file-arrow-down"></i> Download CV
+                            </a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <section class="chat" aria-label="Ask about Nerat's work">
+                            <div class="chat-head">
+                                <div class="chat-avatar" aria-hidden="true">ND</div>
+                                <div>
+                                    <p class="chat-title">Ask my portfolio</p>
+                                    <p class="chat-sub">Every answer shows where it came from.</p>
+                                </div>
+                            </div>
+
+                            <div class="chat-log" id="chatLog" role="log" aria-live="polite"></div>
+
+                            <div class="chat-suggest" id="chatSuggest"></div>
+
+                            <form class="chat-input" id="chatForm" autocomplete="off">
+                                <label for="chatQuestion" class="visually-hidden">Your question</label>
+                                <input id="chatQuestion" type="text" placeholder="Ask about projects, skills, research…"
+                                    maxlength="200" />
+                                <button type="submit" aria-label="Send question"><i
+                                        class="fas fa-arrow-up"></i></button>
+                            </form>
+                        </section>
+                    </div>
+                </div>
             </div>
         </header>
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-evenly">
-                    <div class="content-section-heading">
-                        <h2 class="mb-5">About Me</h2>
+
+        <section class="block" id="projects">
+            <div class="container">
+                <h2 class="block-title">Projects</h2>
+                <p class="block-intro">From dashboards and customer analytics to machine learning models and NLP
+                    systems.</p>
+
+                <!-- Featured project -->
+                <article class="feature">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-5">
+                            <img class="feature-img" src="assets/img/pidgin.jpg" alt="PidginNuance project preview" />
+                        </div>
+                        <div class="col-lg-7">
+                            <h3>PidginNuance</h3>
+                            <p>
+                                An end-to-end NLP pipeline for sentiment and emotion analysis in Nigerian Pidgin.
+                                It tests how much sentiment signal is recoverable from text alone versus emotional
+                                context, and fine-tunes transformer models on a culturally grounded 16-category
+                                emotion taxonomy. Deployed on AWS EC2 with HTTPS.
+                            </p>
+                            <ul class="tags">
+                                <li>Transformers</li>
+                                <li>Fine-tuning</li>
+                                <li>NLP</li>
+                                <li>AWS EC2</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://pidginnuance.com" target="_blank" rel="noopener"><i
+                                        class="fas fa-globe"></i> Live app</a>
+                                <a href="https://github.com/Elilora/PidginNuance" target="_blank" rel="noopener"><i
+                                        class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-10">
-                        <p class="lead mb-5">
-                        I'm a Data Scientist passionate about transforming data into actionable insights. 
-                        My journey in data science has been driven by curiosity and a desire to extract meaningful information 
-                        from complex datasets. My portfolio showcases projects that blend technical expertise with a deep understanding of business needs.
-                         Currently, I’m diving into ML deployment, Power BI, LLMs, and Generative AI. 
-                         I’m actively seeking new opportunities in Data Science where I can continue to grow and contribute.
-                        
-                        </br>🔭 I’m currently working on this page.
-                        </br>🌱 I’m currently learning MLOps.
-                        </br>⚡ Fun fact: I love gardening and decorating.
-                        </p>
-                        <a class="btn btn-dark btn-xl" href="#services">What I Offer</a>
-                    </div>
+                </article>
+
+                <div class="row g-4 project-grid">
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/harvest.jpg"
+                                alt="Agric Yield Prediction Agent preview" loading="lazy" />
+                            <h3>Agric Yield Prediction Agent</h3>
+                            <p>Uses AI agents to predict agricultural yield.</p>
+                            <ul class="tags">
+                                <li>AI agents</li>
+                            </ul>
+                            <div class="links"><a href="https://github.com/Elilora/agri_yield_assistant" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/portfolio-2.jpg" alt="YouSum app preview"
+                                loading="lazy" />
+                            <h3>YouSum</h3>
+                            <p>A Streamlit app that condenses long documents into concise summaries using NLP to pull
+                                out the key information.</p>
+                            <ul class="tags">
+                                <li>NLP</li>
+                                <li>Summarisation</li>
+                                <li>Streamlit</li>
+                            </ul>
+                            <div class="links"><a
+                                    href="https://github.com/Elilora/Summarizer/blob/master/streamlit_app.py"
+                                    target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/Spam_email.jpg" alt="Spam Text Detection preview"
+                                loading="lazy" />
+                            <h3>Spam Text Detection</h3>
+                            <p>Classifies text messages as spam or ham, comparing SVM, KNN, decision tree and random
+                                forest classifiers.</p>
+                            <ul class="tags">
+                                <li>Scikit-learn</li>
+                                <li>NLTK</li>
+                                <li>Classification</li>
+                            </ul>
+                            <div class="links"><a href="https://github.com/Elilora/Text-Classification" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/Lung.jpg" alt="Lung Cancer Detection preview"
+                                loading="lazy" />
+                            <h3>Lung Cancer Detection</h3>
+                            <p>Classifies lung CT scans as benign, malignant or normal, comparing SVM, KNN, decision
+                                tree and random forest models.</p>
+                            <ul class="tags">
+                                <li>Medical imaging</li>
+                                <li>Classification</li>
+                            </ul>
+                            <div class="links"><a href="https://github.com/Elilora/Lung-Cancer-Classification"
+                                    target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/Brain.jpg" alt="Stroke Prediction preview"
+                                loading="lazy" />
+                            <h3>Stroke Prediction</h3>
+                            <p>Predicts stroke risk from patient data with logistic regression, decision trees and
+                                random forests, to flag high-risk individuals early.</p>
+                            <ul class="tags">
+                                <li>Healthcare ML</li>
+                                <li>Classification</li>
+                            </ul>
+                            <div class="links"><a href="https://github.com/Elilora/Stroke-Prediction" target="_blank"
+                                    rel="noopener"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/Shopping_basket.jpg"
+                                alt="Market Basket Analysis preview" loading="lazy" />
+                            <h3>Market Basket Analysis and Customer Segmentation</h3>
+                            <p>Finds frequent itemsets and association rules in grocery transactions, then segments
+                                customers by purchasing patterns.</p>
+                            <ul class="tags">
+                                <li>Association rules</li>
+                                <li>Clustering</li>
+                            </ul>
+                            <div class="links"><a href="https://github.com/Elilora/Market-basket-analysis"
+                                    target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </article>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="project">
+                            <img class="project-img" src="assets/img/download.jpg"
+                                alt="Spotify Streaming Analysis preview" loading="lazy" />
+                            <h3>Spotify Streaming Analysis</h3>
+                            <p>An interactive Power BI dashboard on listening habits, popular genres and artist trends.
+                            </p>
+                            <ul class="tags">
+                                <li>Power BI</li>
+                                <li>Analytics</li>
+                            </ul>
+                            <!-- Replace with a "Publish to web" Power BI link so visitors can open it -->
+                            <div class="links"><a
+                                    href="https://app.powerbi.com/groups/me/reports/f27d5349-37d1-491e-862f-402d4866dcd1/ReportSection?experience=power-bi"
+                                    target="_blank" rel="noopener"><i class="fas fa-chart-column"></i> Dashboard</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                
             </div>
         </section>
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What I do</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-layers"></i></span>
-                        <h4><strong>Data Science</strong></h4>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-graph"></i></span>
-                        <h4><strong>Data Analysis</strong></h4>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-code"></i></span>
-                        <h4><strong>Software Engineering</strong></h4>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-brain"></i></span>
-                        <h4><strong>Machine learning</strong></h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Languages and Tools-->
-        <section class="Languages-Tools">
-                <div class="container px-4 px-lg-5 text-center">
-                    <h2 class="mx-auto mb-5">Languages and Tools</h2>
-                </div>
-                <div class="container px-4 px-lg-5 text-center">
-                    <p>
-                        <a href="https://d3js.org/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/>
-                        </a>
-                        <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/>
-                        </a>
-                        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-                        </a>
-                        <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.python.org" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-                        </a>
-                        <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
-                        </a>
-                        <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
-                        </a>
-                        <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
-                            <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-                        </a>
-                        <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer">
-                            <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-                        </a>
-                        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-                        </a>
-                        <a href="https://redis.io" target="_blank" rel="noreferrer">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/>
-                        </a>
-                        <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
-                        </a>
-                    </p>
-                </div>
-        </section>
-        <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
-                </div>
-                <div class="row gx-0">
+        <!-- Education and research -->
+        <section class="block block-alt" id="education">
+            <div class="container">
+                <h2 class="block-title">Education and research</h2>
+                <div class="row gx-4 gy-5">
                     <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Elilora/PidginNuance">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">PidginNuance</div>
-                                    <p class="mb-0">Project Summary: An end-to-end NLP pipeline for sentiment and emotion analysis in Nigerian Pidgin text. 
-                                                    The project investigates how much sentiment signal is recoverable from text alone versus emotional context, 
-                                                    fine-tunes transformer models on a culturally grounded 16-category emotion taxonomy.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/pidgin.jpg" alt="PidginNuance" />
-                        </a>
+                        <h3 class="sub-title">Degrees</h3>
+                        <ol class="timeline">
+                            <li>
+                                <p class="timeline-date">2025</p>
+                                <h3>MSc Data Science</h3>
+                                <p class="timeline-place">Heriot-Watt University, Edinburgh</p>
+                                <p>Dissertation: Evaluating the Impact of Question Decomposition and Web-Based RAG on
+                                    Reducing Hallucination in LLM QA Systems</p>
+                            </li>
+                            <li>
+                                <p class="timeline-date">2021</p>
+                                <h3>BSc Computer Science</h3>
+                                <p class="timeline-place">Landmark University, Nigeria</p>
+                            </li>
+                        </ol>
                     </div>
                     <div class="col-lg-6">
-                    <!--<div class="col-12 col-md-6 col-lg-4"> -->
-                        <a class="portfolio-item" href="https://github.com/Elilora/agri_yield_assistant">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Agric Yield Prediction Agent</div>
-                                    <p class="mb-0">Project Summary: This project uses AI agents to predict agricultural yield 
-                                    </p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/harvest.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://app.powerbi.com/groups/me/reports/f27d5349-37d1-491e-862f-402d4866dcd1/ReportSection?experience=power-bi">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Spotify Streaming Analysis</div>
-                                    <p class="mb-0">Project Summary: This project uses Spotify streaming data to create an interactive Power BI dashboard, 
-                                        providing insights into user listening habits, popular genres, and artist trends. 
-                                        The analysis helps understand user preferences and optimize content recommendations. 
-                                    </p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/download.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Elilora/Market-basket-analysis">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Market Basket Analysis and Customer Segmentation</div>
-                                    <p class="mb-0">Project Summary: This project analyzes grocery transactional data to identify frequent itemsets and association rules using market basket analysis techniques. 
-                                        It also segments customers based on purchasing patterns using KNN clustering and visualizes frequent itemsets with a word cloud.
-                                    </p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/Shopping_basket.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Elilora/Summarizer/blob/master/streamlit_app.py">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">YouSum App</div>
-                                    <p class="mb-0">Project Summary: This project develops a text summarizer app using Streamlit, which condenses lengthy text documents into concise summaries. 
-                                        The app leverages natural language processing techniques to extract key information, enhancing readability and comprehension.
-                                    </p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
-                        </a>
-                    </div>
-                   <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Elilora/Text-Classification">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Spam Text Detection</div>
-                                    <p class="mb-0">Project Summary: This project classifies text messages as spam or ham using machine learning techniques, 
-                                                    including SVM, KNN, decision tree, and random forest classifiers. 
-                                                    It leverages Scikit-learn and NLTK for analysis of a text message corpus.
-                                    </p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/Spam_email.jpg" alt="..." />
-                            
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Elilora/Lung-Cancer-Classification">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Lung Cancer Detection</div>
-                                    <p class="mb-0">Project Summary: This project classifies lung CT scans as benign, malignant, 
-                                        or normal using various classification models, including SVM, KNN, decision trees, and random forests. 
-                                        By analyzing patient data, the project aims to enhance early detection and diagnostic accuracy for lung cancer.
-                                    </p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/Lung.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Elilora/Stroke-Prediction">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Stroke Prediction</div>
-                                    <p class="mb-0">Project Summary: This project predicts stroke occurrences using various classification models, 
-                                                    including logistic regression, decision trees, and random forests. By analyzing patient data, 
-                                                    the project aims to identify high-risk individuals and enhance early detection of strokes.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/Brain.jpg" alt="..." />
-                        </a>
+                        <h3 class="sub-title">Publication</h3>
+                        <div class="paper">
+                            <p class="paper-kind">Springer, March 2022</p>
+                            <h3>Classification of Lung Cancer Datasets Using Computational Intelligence Techniques</h3>
+                            <a href="https://doi.org/10.1007/978-981-16-8484-5_44" target="_blank" rel="noopener">DOI:
+                                10.1007/978-981-16-8484-5_44</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Check me out</h2>
-                   <!-- <a class="btn btn-xl btn-light me-4" href="https://drive.google.com/file/d/1Ch5Cpr3apIHOWUVT3lJgz857D-F-gKfr/view?usp=sharing">Resume</a>-->
-                <a class="btn btn-xl btn-dark" href="https://github.com/Elilora">Github</a>
-                <a class="btn btn-xl btn-dark" href="https://medium.com/@neratdazam2">Medium</a>
+
+        <!-- Skills (matches the skills section of my CV) -->
+        <section class="block" id="skills">
+            <div class="container">
+                <h2 class="block-title">Skills and tools</h2>
+                <div class="row g-4 stack">
+                    <div class="col-md-6 col-lg-4">
+                        <h3>Programming</h3>
+                        <p>Python (pandas, NumPy, scikit-learn, SciPy, Matplotlib, Seaborn), SQL, R, Excel</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h3>Data science and ML</h3>
+                        <p>Exploratory data analysis, statistical modelling, hypothesis testing, A/B testing,
+                            time-series analysis, classification, regression, clustering, ensemble methods, feature
+                            engineering, model evaluation</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h3>Generative AI</h3>
+                        <p>RAG, agentic AI, prompt engineering, LLM evaluation, LangChain, LangGraph, DeepEval, Hugging
+                            Face, Pinecone</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h3>Visualisation and reporting</h3>
+                        <p>Power BI, Tableau, Streamlit, dashboard development, presentations</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h3>Data quality and engineering</h3>
+                        <p>Data cleaning and validation, data quality checks, ETL pipelines, anomaly detection, MongoDB,
+                            AWS (EC2, S3, Lambda), Git</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h3>Collaboration and delivery</h3>
+                        <p>Requirements gathering, stakeholder communication, documentation, Jira, Agile</p>
+                    </div>
+                </div>
             </div>
         </section>
-       
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <h3>Connect with me </h3>
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    
-                        <!--<li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/Elilora_Nerat" alt="@elilora_nerat"><i class="icon-social-twitter"></i></a>
-                    </li>-->
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://linkedin.com/in/nerat-dazam/" alt="nerat dazam"><i class="icon-social-linkedin"></i></a>
-                    </li>
-                   
-                   <!-- <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://github.com/Elilora" alt="nerat dazam"><i class="icon-social-github"></i></a>
-                    </li>-->
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://kaggle.com/nerat dazam" alt="nerat dazam"><i class="fab fa-kaggle"></i></a>
-                    </li>
-                </ul>                
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
+        <section class="contact" id="contact">
+            <div class="container contact-bar">
+                <div>
+                    <h2 class="contact-title">Get in touch</h2>
+                    <!--<p class="contact-intro"></p>-->
+                </div>
+                <div class="contact-links">
+                    <a class="contact-email" href="mailto:Neratldazam@gmail.com"><i class="fas fa-envelope"></i>
+                        Neratldazam@gmail.com</a>
+                    <ul class="socials">
+                        <li><a href="https://linkedin.com/in/nerat-dazam/" target="_blank" rel="noopener"
+                                aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Elilora" target="_blank" rel="noopener" aria-label="GitHub"><i
+                                    class="fab fa-github"></i></a></li>
+                        <!-- Check this matches your real Kaggle username (no spaces) -->
+                        <li><a href="https://www.kaggle.com/neratdazam" target="_blank" rel="noopener"
+                                aria-label="Kaggle"><i class="fab fa-kaggle"></i></a></li>
+                        <li><a href="https://medium.com/@neratdazam2" target="_blank" rel="noopener"
+                                aria-label="Medium"><i class="fab fa-medium"></i></a></li>
+                    </ul>
+                </div>
             </div>
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Nerat Dazam</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Edit your chat answers in knowledge.js -->
+    <script src="js/knowledge.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
